@@ -87,16 +87,17 @@ function getAds()
     var grey_ad_tenmins = '<widget><div class="advert grey-ad big-ttl"><h4>Set up Puppet in 10 Minutes</h4><p><center>Try it FREE<center></p><p><a href="http://info.puppetlabs.com/puppet-enterprise?utm_source=docs&CID=701A00000005N1C" class="btn btn-dark">Get Puppet Enterprise</a></div></widget>';
     var widget_btn_combo = '<p style="text-align:center;"><a class="btn" href="http://info.puppetlabs.com/request-pdf-docs?CR=PDF Docs&CID=701A00000005N1C">PDF Docs</a></p><widget><div class="advert big-ttl"><h4> Make it Easy with Puppet Enterprise</h4><p><center>Set up in 10 Minutes</p><p><a href="http://info.puppetlabs.com/puppet-enterprise?utm_source=docs&CID=701A00000005N1C" class="btn ">Try it FREE</a></div></widget>';
     var pdf_btn = '<a class="btn" href="http://info.puppetlabs.com/request-pdf-docs?CR=PDF Docs&CID=701A00000005N1C">PDF Docs</a>';
+    var devops_survey = '<a href="http://www.surveymonkey.com/s/7RDCFVX" target="_blank"><img src="http://www.puppetlabs.com/wp-content/uploads/2011/06/pl_widget-146x124-_DevOps_.png" border="0"></a>';
     
-    ads['/'] = [widget_btn_combo];         
-    ads['/index.html'] = [widget_btn_combo]; 
+    ads['/'] = [widget_btn_combo, devops_survey];         
+    ads['/index.html'] = [widget_btn_combo, devops_survey]; 
                          
-   ads['/guides/language_guide.html'] = [grey_ad_tenmins];
-   ads['/guides/introduction.html'] = [grey_ad_tenmins];
-   ads['/guides/configuring.html'] = [grey_ad_tenmins];
-   ads['/guides/installation.html'] = [grey_ad_tenmins];
-   ads['/guides/modules.html'] = [grey_ad_tenmins];
-   ads['/guides/types/'] = [grey_ad_tenmins];
+   ads['/guides/language_guide.html'] = [grey_ad_tenmins, devops_survey];
+   ads['/guides/introduction.html'] = [grey_ad_tenmins, devops_survey];
+   ads['/guides/configuring.html'] = [grey_ad_tenmins, devops_survey];
+   ads['/guides/installation.html'] = [grey_ad_tenmins, devops_survey];
+   ads['/guides/modules.html'] = [grey_ad_tenmins, devops_survey];
+   ads['/guides/types/'] = [grey_ad_tenmins, devops_survey];
    
    ads['/guides/environment.html'] = [''];
    ads['/guides/exported_resources.html'] = [''];
